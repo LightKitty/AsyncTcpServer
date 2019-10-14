@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AsyncTcpServer
@@ -55,7 +49,7 @@ namespace AsyncTcpServer
         {
             //获取本机所有IP地址
             IPAddress[] ip = Dns.GetHostAddresses(Dns.GetHostName());
-            listener = new TcpListener(ip[1], 51888);
+            listener = new TcpListener(ip[0], 51888);
             listener.Start();
             while(isExit==false)
             {
