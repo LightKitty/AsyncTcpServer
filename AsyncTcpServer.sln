@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTcpServer", "AsyncTcpServer\AsyncTcpServer.csproj", "{413161EC-9C93-431E-B5D8-5D4D4B29AD17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413161EC-9C93-431E-B5D8-5D4D4B29AD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413161EC-9C93-431E-B5D8-5D4D4B29AD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413161EC-9C93-431E-B5D8-5D4D4B29AD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413161EC-9C93-431E-B5D8-5D4D4B29AD17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41E9648B-AD6E-44D1-AC4A-C3125FD36569}
+	EndGlobalSection
+EndGlobal
